@@ -18,7 +18,7 @@ console.log("Get to it!");
 }
 
 let location = READLINE.question("Are you on your way home?");
-if (location == "On the train")
+if (location == "Yes")
 {
 console.log("Ok, get home safe.");
 }
@@ -26,3 +26,4 @@ else
 {
 console.log("Come home soon.");
 }
+o
