@@ -6,17 +6,29 @@ const READLINE = require("readline-sync");
 // R-rated movie.
 console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
+
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 
+if(age >=18 || withAdult == "yes") {
+	console.log("Enjoy the movie!");
+}
+else  
+{console.log ("Go home, Kid!");
+}
 
 // **** Problem 2: Umbrella ****
 // You should bring an umbrella when you travel, but only if it is raining.
 // However, if it is thunderstorming, you should not bring an umbrella since
 // that's bad luck. Write code that prints if someone should bring an umbrella
 // with them.
-console.log("*** Problem 2: Umbrella ***");
+//console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+if(raining == "yes"){console.log('Remember to bring an Umbrella');
+}
+else 
+{console.log ("Drop that umbrella, and carry on with your day");
+}
 
 
 // **** Problem 3: Monkey Trouble ****
@@ -26,7 +38,12 @@ let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 console.log("*** Problem 3: Monkey Trouble ***");
 let bubbles = READLINE.question("Is Bubbles smiling? (yes or no): ");
 let spankey = READLINE.question("Is Spankey smiling? (yes or no): ");
-
+if (bubbles=="yes") 
+	{console.log("Pet him and give him a treat!");
+}
+else
+	{console.log("Run Away! He's ready to attack!");
+}
 
 // **** Problem 4: First Place ****
 // Write code that prints the largest of three scores. If there is a tie for
