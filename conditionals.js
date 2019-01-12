@@ -52,7 +52,7 @@ console.log("*** Problem 4: First Place ***");
 let score1 = READLINE.question("Enter the first score: ");
 let score2 = READLINE.question("Enter the second score: ");
 let score3 = READLINE.question("Enter the third score: ");
-
+if (score1 >= score2 && score1 >= score3) {console.log()}
 
 // **** Problem 5: Phone Shopping ****
 // At a phone store, you can afford various "tiers" of phones based on how
@@ -62,7 +62,7 @@ let score3 = READLINE.question("Enter the third score: ");
 //    If you have at least $300 you can buy a middle-tier phone.
 //    If you have at least $600 you can buy a top-tier phone.
 // Write code that prints all the phone tiers someone can buy based on how much
-// money they have.
+// monkeys they have.
 console.log("*** Problem 5: Phone Shopping ***");
 let money = READLINE.question("How much money do you have?: ");
 
